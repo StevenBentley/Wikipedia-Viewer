@@ -1,0 +1,63 @@
+body {
+  padding-top: 40px;
+  background: #808080 url("https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-attachment: fixed;
+  background-size: 30% auto;
+}
+
+#search-bar {
+  padding-top: 30px;
+}
+
+#feeling-lucky {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.cursor-hand {
+  cursor: pointer;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+  text-decoration:none;
+  color: black;
+}
+
+
+h1 {
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  background: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+li:hover {
+  border-left: 8px solid #428bca;
+  margin-left: -8px;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: 50% auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-size: 80% auto;
+  }
+}
